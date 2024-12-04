@@ -6,7 +6,7 @@ import fre_en from "../../public/fre-en.jpg";
 import management from "../../public/management.jpg";
 import health from "../../public/health.jpg";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Program = () => {
   return (

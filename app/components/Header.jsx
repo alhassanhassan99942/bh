@@ -1,25 +1,27 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 // import { useState } from 'react'
 // import { Dialog, DialogPanel } from "@headlessui/react";
 // import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { FaPhoneAlt } from "react-icons/fa";
+// import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
-import { useRouter } from "next/compat/router";
+// import { useRouter } from "next/compat/router";
 
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Programs", href: "/proframs" },
-];
+// const navigation = [
+//   { name: "Home", href: "/" },
+//   { name: "About", href: "/about" },
+//   { name: "Programs", href: "/proframs" },
+// ];
 
 export default function Header() {
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const router = useRouter();
+  // const router = useRouter();
 
   // const pathname = router;
+
+  const sticky = false;
 
   
 
@@ -28,7 +30,7 @@ export default function Header() {
   // } else {
   //   const [sticky, setSticky] = useState(true);
   // }
-  const [sticky, setSticky] = useState(true);
+  // const [sticky, setSticky] = useState(true);
 
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {
