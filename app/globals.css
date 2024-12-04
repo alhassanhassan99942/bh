@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #3f4753 ;
+} */
+
+* {
+  font-family: "Roboto" sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn {
+  @apply p-4 bg-white rounded-md text-blue-600 text-xl
+}
+
+.btn-blue {
+  @apply p-4 pl-8 pr-8 bg-blue-600 text-white text-xl rounded-full
+}
+
+.btn-gray {
+  @apply p-4 pl-8 pr-8 bg-gray-600 text-white text-xl rounded-full
+}
+
+.nav-link {
+  @apply p-4 text-sm text-white
+}
+
+.container {
+  @apply w-[90%] m-auto
+}
+
+.col {
+  flex-basis: 48%;
+}
+
+.container {
+  @apply px-[10%]
+}
+
+.col ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact input,
+.contact textarea {
+  @apply block w-full bg-[#EBECFE] p-[14px] border-0 outline-0 mb-[14px] mt-[5px] resize-none rounded-xl
+}
+
+.trans {
+  transition: 0.5s ease;
+}
+
+header {
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  background: linear-gradient(rgba(7, 13, 31, 0.7), rgba(8, 0, 58,0.7)), url('../public/sharing.jpg')  ;
+  background-size: cover;
+  background-position: center;
+  /* color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center */
+}
+
+.hero p {
+  line-height: 1.4;
+  margin: 10px auto 20px;
+}
