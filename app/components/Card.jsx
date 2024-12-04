@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import cyber from '../../public/cyber-security.jpg'
-import robotics from '../../public/robotics.jpg'
+// import cyber from '../../public/cyber-security.jpg'
+// import robotics from '../../public/robotics.jpg'
 import programming from '../../public/programming.jpg'
 import language from '../../public/language.jpg'
 import health from '../../public/health.jpg'
 import Title from '../components/Title'
-import management from '../../public/management.jpg'
+// import management from '../../public/management.jpg'
 
 const card = [
     { branch: 'Information Technology', name: 'Cyber Securite', image: programming, desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.', duration: '3 months' },

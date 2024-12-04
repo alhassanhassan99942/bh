@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
-import { Input, Button, Typography } from "@material-tailwind/react";
-import sharing from '../../public/sharing.jpg'
+// import Image from "next/image";
+// import { Input, Button, Typography } from "@material-tailwind/react";
+// import sharing from '../../public/sharing.jpg'
 
 function Hero() {
     return (

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Title from "../components/Title";
 import cyber from "../../public/cyber-security.jpg";
-import robotics from "../../public/robotics.jpg";
+// import robotics from "../../public/robotics.jpg";
 import programming from "../../public/programming.jpg";
 import language from "../../public/language.jpg";
 import health from "../../public/health.jpg";

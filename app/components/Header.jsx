@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 // import { useState } from 'react'
-import { Dialog, DialogPanel } from "@headlessui/react";
+// import { Dialog, DialogPanel } from "@headlessui/react";
 // import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
@@ -19,7 +19,7 @@ export default function Header() {
 
   const router = useRouter();
 
-  const pathname = router;
+  // const pathname = router;
 
   
 

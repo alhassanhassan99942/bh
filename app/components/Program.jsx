@@ -1,5 +1,5 @@
 import React from "react";
-import { MdHealthAndSafety } from "react-icons/md";
+// import { MdHealthAndSafety } from "react-icons/md";
 import "../styles/program.css";
 import robotics from "../../public/programming.jpg";
 import fre_en from "../../public/fre-en.jpg";
