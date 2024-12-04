@@ -21,7 +21,7 @@ export default function Header() {
 
   // const pathname = router;
 
-  const sticky = false;
+  const sticky = true;
 
   
 
@@ -42,7 +42,7 @@ export default function Header() {
     <div>
       <header
         className={`w-full lg:fixed pb-6 ${
-          sticky ? "bg-white text-white " : "bg-transparent"
+          sticky ? "bg-white text-black " : "bg-white"
         } lg:pb-0 border-b border-blue-gray-100 `}
       >
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -52,7 +52,7 @@ export default function Header() {
                 {/* <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" /> */}
                 <h1
                   className={`${
-                    sticky ? "text-black" : "text-white"
+                    sticky ? "text-black" : "text-black"
                   } font-extrabold text-3xl`}
                 >
                   BrightHorizons
